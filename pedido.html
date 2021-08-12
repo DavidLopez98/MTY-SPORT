@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<meta charset="utf-8">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="author" content="Equipo Index" />
+<title>Pedido</title>
+<link rel="shortcut icon" type="image/x-icon" href="img-producto/icono.ico">
+
+<link rel="stylesheet" href="css/pedido.css">
+<script type="text/javascript " src="js/code.js">
+</script>
+</head>
+<body>
+    <div class="total">
+<div><b>Productos acumulados en su carrito de la compra</b></div>
+<form action="mailto:darkguitar098@gmail.com" method="post" enctype="text/plain" id="cesta">
+<table width="750" border="1" cellspacing="1" cellpadding="5" ;">
+<tr style="font: bold">
+<td width="50">&nbsp;C&oacute;digo&nbsp;</td>
+<td width="160">Nombre</td>
+<td width="100">&nbsp;Precio &nbsp;&nbsp;</td>
+<td width="40">Ud</td>
+<td width="160">Control </td></tr>
+<tr><td>
+<script type="text/javascript">
+visualizarcarrito();
+</script>
+</td></tr>
+</table>
+<br />
+</div>
+<div class="marco">
+<p class="texto">DATOS PERSONALES</p>
+<span class="label">Nombre <br></span><input type="text" name="Nombre" id="inputs" required />
+<br />
+<span class="label">Apellido <br></span><input type="text" name="Apellido" id="inputs" required />
+<br />
+<span class="label">Direcci&oacute;<br></span>
+<input type="text" name="Dirección" id="inputs" required />
+<br />
+<span class="label">Poblaci&oacute;<br></span>
+<input type="text" name="Población" id="inputs" required/>
+<br />
+<span class="label">Provincia <br></span><input type="text" name="Provincia" id="inputs" required/>
+<br />
+<span class="label">Tel&eacute;fono <br></span>
+<input type="text" name="Teléfono" id="inputs" required />
+<br />
+<div align="center" class="marco2">
+<input type="submit" value="Enviar" id="boton" />
+<input type="reset" value="Borrar" id="boton" />
+<p>El pedido ser&aacute; colocado en la bandeja de salida de su
+programa de correo para ser enviado a un email inexistente llamado mty_sport@gmail.com</p>
+</p>
+</div></div>
+</form>
+</body>
+</html>

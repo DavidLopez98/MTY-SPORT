@@ -1,0 +1,109 @@
+/* Global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Oswald", sans-serif;
+background-image: url("../img-producto/blanco.jpg");    /* Pattern from https://www.heropatterns.com/ */
+    
+    font-size: 16px;
+  }
+  
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  /* Navigation */
+  .nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+  }
+  
+  .nav-brand {
+    width: 50px;
+  }
+  
+  /* Navbar Left */
+  .nav-main ul {
+    display: flex;
+  }
+  
+  .nav-main ul li {
+    padding: 10px;
+  }
+  
+  .nav-main ul li a {
+    padding: 2px;
+  }
+  
+  .nav-main ul li a:hover {
+    border-bottom: 2px solid blue;
+  }
+  
+  .nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .menu-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    display: none;
+  }
+  
+  /*showcase*/
+  hr{
+      margin: 10px 0;
+  }
+  
+  .intrucciones{
+  width: 50%;
+  height: 500px;
+  background: url('../img-producto/logo3.JPG')no-repeat center center/cover;
+  padding: 50px ;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-end;
+  padding:  10px 20px;
+  border: white 1px solid;
+
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid blue;
+  /* IMPORTANTE */
+
+  
+  
+  }
+  header  h2{
+    color: white;
+    background: black;
+
+  }
+
+  .marco{
+    
+    /* IMPORTANTE */
+  }

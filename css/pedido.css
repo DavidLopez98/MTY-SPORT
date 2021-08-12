@@ -1,0 +1,21 @@
+/* Global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Oswald", sans-serif;
+background-image: url("../img-producto/blanco.jpg");    /* Pattern from https://www.heropatterns.com/ */
+    text-align: center;
+    font-size: 16px;
+    height: 200px;
+    width: 700px;
+font-size: x-large;
+margin: auto;
+font-family: "Oswald", sans-serif;
+
+  }
+  
+  
